@@ -1,16 +1,16 @@
-import firebase from "firebase"
+import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC4N0kNiXvenJYLxqLCbDp9ivEHwre4HWE",
-    authDomain: "tiktok-240b4.firebaseapp.com",
-    projectId: "tiktok-240b4",
-    storageBucket: "tiktok-240b4.appspot.com",
-    messagingSenderId: "60760735880",
-    appId: "1:60760735880:web:4ac9d44f9bdbfeaee7df3d",
-    measurementId: "G-6XEE2M7QKV"
+    apiKey: "AIzaSyBWqK4wZdFgzAdTZD2-8xBiyGUDU3pWoeA",
+    authDomain: "tiktokreact-ad719.firebaseapp.com",
+    projectId: "tiktokreact-ad719",
+    storageBucket: "tiktokreact-ad719.appspot.com",
+    messagingSenderId: "413494993764",
+    appId: "1:413494993764:web:5c5005b5816acface99071",
+    measurementId: "G-E0XK0DGRVB"
 };
 
-const firebaseApp = firebase.initializeApp(firebaseConfig)
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
 
